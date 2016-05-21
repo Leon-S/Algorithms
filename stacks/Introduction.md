@@ -18,5 +18,24 @@ operations occur at **one end only**, called the top of the stack.
     Element of the Stack have to be Initialized.
 
 ## Implementation
-1. Using an array
-2. Using a linked list
+### 1.Using an array
+#####Advantage:
+* easy
+
+
+
+#####Disadvantage:
+* Memory space is wasted.
+* There is a limitation in storing the items into the stack.
+* Insertion and deletion operations in a stack using an array involves more data movements.
+
+
+
+### 2.Using a linked list
+##### Advantage:
+* The stack does not need to be fixed size
+* Insertion and deletion operations do not involve more data movements.(Just change of pointers)
+* Memory space is not wasted.
+
+#####Disadvantage:
+* more space is used for each node(because pointer fields are involved)

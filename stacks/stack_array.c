@@ -23,6 +23,7 @@ void dele() {
     item = s[top];
     printf("Deleted item is %d\n", item);
     getchar();
+    getchar();
     top = top - 1;
     return;
 }
@@ -34,6 +35,7 @@ void display() {
         printf("%d ",s[i]);
         i++;
     }
+    getchar();
     getchar();
     printf("\n");
     printf("\n");
