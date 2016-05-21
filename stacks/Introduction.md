@@ -16,3 +16,7 @@ operations occur at **one end only**, called the top of the stack.
 2. *Checking the Emptiness of the Stack*
 3. Before Using the Stack, the Size of the Stack and the Variable which Points the Top
     Element of the Stack have to be Initialized.
+
+## Implementation
+1. Using an array
+2. Using a linked list
